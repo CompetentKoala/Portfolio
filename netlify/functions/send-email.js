@@ -1,4 +1,3 @@
-require("dotenv").config();
 
 console.log("Email user: ", process.env.EMAIL_USER); // Check if this is correctly loaded
 console.log("Email pass: ", process.env.EMAIL_PASS); // Check if this is correctly loaded
