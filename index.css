@@ -683,3 +683,21 @@ text-align: center;
 .socials > img{
     width: 50px;
 }
+
+@media (max-width: 420px) {
+    body{
+        overflow-x: hidden;
+    }
+    .hero > p {
+        font-size: 30px;
+        text-align: center;
+        padding: 7px;
+    }
+    .portfolio-main{
+        position: relative;
+        overflow: visible;
+    }
+    .portfolio-header{
+        top:590px
+    }
+}
