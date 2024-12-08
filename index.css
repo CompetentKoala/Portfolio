@@ -14,6 +14,7 @@ body{
     scrollbar-width: none;
     color: white;
     scroll-snap-type: y mandatory;
+    width: 100%;
 }
 
 main{
@@ -688,9 +689,9 @@ text-align: center;
     .stars{
         width: 896px;
     }
-    body{
+    body {
+        width: auto;
         overflow-x: hidden;
-        width: 896px;
     }
     .hero > p {
         font-size: 70px;
@@ -700,5 +701,6 @@ text-align: center;
     .portfolio-main{
         position: relative;
         overflow: visible;
+        display: none;
     }
 }
