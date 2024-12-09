@@ -697,7 +697,7 @@ text-align: center;
 
     }
     .hero > p {
-        font-size: 70px;
+        font-size: 40px;
         text-align: center;
         padding: 7px;
     }
@@ -725,12 +725,14 @@ text-align: center;
         align-items: center;
     }
     .language-holder > div >img{
+        margin-top: 3px;
         width: 30%;
         margin-bottom: 0px
     }
     .language-holder > div > p {
-        height: 90px;
-        font-size: 10px;
+        font-size: 9px;
+        margin-top: 10px;
+        margin-bottom: 0;
     }
     .project {
         height: 100%;
@@ -772,6 +774,13 @@ text-align: center;
     .project-info > p{
         font-size: 10px;
         text-align: center;
+    }
+    .project-info-right > a {
+        display: flex
+    ;
+        flex-direction: column;
+        align-items: center;
+        text-align: end;
     }
     .project-info > a{
         text-align: center;
