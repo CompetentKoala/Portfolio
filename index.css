@@ -687,7 +687,7 @@ text-align: center;
 }
 
 
-@media (max-width: 420px) {
+@media (max-width: 920px) {
     .stars{
         width: 100%
     }
@@ -709,6 +709,8 @@ text-align: center;
         flex-direction: column;
         width: 100%;
         gap: 10px;
+        justify-content: center;
+        align-items: center;
     }
 
     .profile > p{
