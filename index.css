@@ -13,13 +13,14 @@ body{
     overflow-y: scroll;
     scrollbar-width: none;
     color: white;
-    scroll-snap-type: y mandatory;
+
+}
+html, body {
+    margin: 0;
+    padding: 0;
     width: 100%;
 }
 
-main{
-    scroll-snap-type: y mandatory;
-}
 
 
 
@@ -685,13 +686,18 @@ text-align: center;
     width: 50px;
 }
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 @media (max-width: 420px) {
     .stars{
-        width: 896px;
+        width: 100%
     }
     body {
-        width: auto;
-        overflow-x: hidden;
+        width:100%;
+        height: 100px;
+
     }
     .hero > p {
         font-size: 70px;
@@ -703,4 +709,5 @@ text-align: center;
         overflow: visible;
         display: none;
     }
+
 }
