@@ -686,9 +686,6 @@ text-align: center;
     width: 50px;
 }
 
-*, *::before, *::after {
-    box-sizing: border-box;
-}
 
 @media (max-width: 420px) {
     .stars{
@@ -707,7 +704,97 @@ text-align: center;
     .portfolio-main{
         position: relative;
         overflow: visible;
-        display: none;
+    }
+    .about-info{
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
     }
 
+    .profile > p{
+        font-size: 15px;
+        width: 80%;
+        text-align: center;
+    }
+    .languages{
+        width: 100%;
+    }
+    .language-holder > div {
+        height: 90px;
+        justify-content: center;
+        align-items: center;
+    }
+    .language-holder > div >img{
+        width: 30%;
+        margin-bottom: 0px
+    }
+    .language-holder > div > p {
+        height: 90px;
+        font-size: 10px;
+    }
+    .project {
+        height: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        gap: 10px;
+    }
+    #projects-main{
+        margin-top: 20px;
+    }
+    .carousel{
+        display: none;
+        margin-top: 150px;
+        width: 100%;
+
+        border-top: 30px solid rgba(0, 247, 255, 0.158);
+        border-right: 30px solid rgba(0, 247, 255, 0.158);
+         border-bottom: 30px solid rgba(0, 247, 255, 0.158);
+    }
+
+        .carousel-image{
+            width: 100%;
+    }
+    .project-info{
+        width: 100%;
+        height: 60%;
+        margin-top:50px;
+        margin-right: 0px;
+        margin-left: 0px;
+        background-color: rgba(67, 67, 67, 0.492);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+    }
+    .project-info > p{
+        font-size: 10px;
+        text-align: center;
+    }
+    .project-info > a{
+        text-align: center;
+    }
+    .project-info > h2{
+        font-size: 30px;
+    }
+    .project-selector{
+        margin: 0;
+    }
+    #contact-main > p {
+        width: 80%;
+    }
+    form {
+        width: 100%;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 5px;
+    }
+    input, textarea {
+        width: 80%;
+    }
 }
